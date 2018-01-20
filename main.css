@@ -1,0 +1,243 @@
+.wtf {
+	background-image: url("med_pattern_full.png");
+	height: 100%;
+	-webkit-transform: skewY(-7deg);
+	-moz-transform: skewY(-7deg);
+	-ms-transform: skewY(-7deg);
+	-o-transform: skewY(-7deg);
+	position: absolute;
+	transform: skewY(-7deg);
+	transform-origin: 0;
+	width: 100%;
+}
+
+.wtf2 {
+	background-image: url("med_pattern_full.png");
+	height: 100%;
+	-webkit-transform: skewY(-7deg);
+	-moz-transform: skewY(-7deg);
+	-ms-transform: skewY(-7deg);
+	-o-transform: skewY(-7deg);
+	transform: skewY(-7deg);
+	transform-origin: 0;
+	width: 100%;
+}
+
+.ftw {
+	-webkit-transform: skewY(7deg);
+	-moz-transform: skewY(7deg);
+	-ms-transform: skewY(7deg);
+	-o-transform: skewY(7deg);
+	position: absolute;
+	transform: skewY(7deg);
+	transform-origin: 0;
+}
+
+.wtf .navbar{
+	font-family: sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+	margin-left: 5%;
+	margin-top: 2%;
+	z-index:1;
+}
+
+.nav-pic{
+	margin-left: 8%;
+	margin-right: 7.5%;
+}
+
+.semi-transparent-button {
+  display: block;
+  box-sizing: border-box;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: #fff; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+}
+
+.semi-transparent-button1 {
+  display: block;
+  box-sizing: border-box;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: #fff; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+  float:right;
+}
+
+
+.semi-transparent-button2 {
+  display: block;
+  box-sizing: border-box;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: #fff; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+  float:left;
+}
+
+.semi-transparent-button3 {
+  display: block;
+  box-sizing: border-box;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: #fff; /* fallback color for old browsers */background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+}
+
+.body {
+	position: relative;
+	top: 100vh;
+	padding-top: 5%;
+	padding-bottom: 7%;
+}
+
+.thechallenge {
+	background-color: #f5f5dc;
+	padding-top: 6%;
+	padding-bottom: 5%;
+}
+
+.oursolution {
+	padding-top: 6%;
+	padding-bottom: 5%;
+}
+
+.helppls {
+	background-color: #f5f5dc;
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+
+.affiliations {
+	padding-top:4%;
+	padding-bottom: 6%;
+}
+
+/*Students.html CSS Specific*/
+.parent {
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+
+.importantDates {
+	background-color: #f5f5dc;
+	padding-top: 4%;
+	padding-bottom: 6%;
+}
+
+.importantDates .container {
+	background-color: #c0b1a3;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.container .importantDates3 {
+	background-color: #f5f5dc;
+	padding-top: 2%;
+	padding-bottom: 2%;
+
+}
+
+/*Students.html & Staff.html CSS Specific*/
+.navcontainer{
+	position: fixed;
+	font-family: sans-serif;
+	font-size: 18pt;
+	margin-left: 4%;
+	margin-top: 2%;
+	width: 100vw;
+	left: 0;
+	z-index:2;
+}
+
+.nav-pic1 {
+	padding-left:6%;
+}
+
+.bodyStudents {
+	position: relative;
+	padding-top:12%;
+	z-index:1;
+}
+
+/*Footer CSS*/
+.footer {
+    background-color: #46525f;
+    min-height: 350px;
+    padding-top:70px !important;
+}
+.footer h4{
+    font-size: 15px;
+    color:#e1e1e1;
+    text-align: left;
+    padding-bottom: 9px;
+}
+.footer ul{
+    list-style-type: none;
+    text-align: left;
+    padding:0;
+}
+.footer li {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.footer {
+    padding-bottom: 20px;
+}
+.footer a {
+    color:#8E8D8A;
+}
+.footer a:hover {
+    color: #d9d9d9;
+}
+.footer {
+    padding-bottom: 30px;
+}
+
+
+@media (min-width: 768px) {
+  #navbar {
+  padding-top: 10px;
+  }
+ 
+  #navbar > ul {
+  display: table-row;
+  padding-top: 48px;
+  }
+ 
+  #navbar > ul > li {
+  display: table-cell;
+  float: none;
+  vertical-align: middle;
+ 
+  text-align: center;
+ 
+  width: 80px;  /* crazy designer's fixed-width, multi-line entries */
+  }
+}
