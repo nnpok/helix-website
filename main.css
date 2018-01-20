@@ -1,3 +1,9 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	width: 100vw;
+	text-align: center;
+}
+
 .wtf {
 	background-image: url("med_pattern_full.png");
 	height: 100%;
@@ -28,24 +34,83 @@
 	-moz-transform: skewY(7deg);
 	-ms-transform: skewY(7deg);
 	-o-transform: skewY(7deg);
-	position: absolute;
 	transform: skewY(7deg);
 	transform-origin: 0;
+	position: relative;
 }
 
-.wtf .navbar{
-	font-family: sans-serif;
-	font-size: 18pt;
+.navbar{
+	font-size: 16pt;
 	font-weight: bold;
-	margin-left: 5%;
-	margin-top: 2%;
-	z-index:1;
+}
+
+.navbar-nav {
+	width: 100vw;
+	text-align: center;
+	display: table;
+}
+
+.navnotimg {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.nav-logo {
+	height: 70px;
+	transition: .2s;
+}
+
+.nav-logo:hover {
+	height: 80px;
+	transforms: rotate(360deg);
+}
+
+.navbut {
+	width: 11%;
+	display: inline-block;
+}
+
+.nav-link {
+	width: 100%;
+}
+
+.active {
+	border-bottom: 2px solid currentColor;
+}
+
+.nopad {
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
 }
 
 .nav-pic{
-	margin-left: 8%;
-	margin-right: 7.5%;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 20%;
+	display: inline-block;
 }
+
+.top-container {
+	padding: 0;
+	padding-top: 50px;
+	width: 1200px;
+	display: inline-block;
+}
+
+.page-name {
+	font-size: 75px;
+}
+
+.page-subname {
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.col-md-7 .page-name {
+	padding-left: 0;
+}
+
 
 .semi-transparent-button {
   display: block;
@@ -62,6 +127,33 @@
   transition: all 0.3s ease-out;
 }
 
+.learnbut {
+	font-size: 20px;
+	background-color: white;
+	opacity: .6;
+	color: gray;
+}
+
+.learnbut:hover {
+	font-size: 25px;
+	opacity: .9;
+	color: black;
+}
+
+.about-learnbut {
+	font-size: 20px;
+	background-color: white;
+	opacity: .6;
+	color: gray;
+	margin-top: 20px;
+}
+
+.about-learnbut:hover {
+	font-size: 25px;
+	opacity: .9;
+	color: black;
+}
+
 .semi-transparent-button1 {
   display: block;
   box-sizing: border-box;
@@ -74,7 +166,7 @@
   text-align: center;
   text-decoration: none;
   letter-spacing: 1px;
-  transition: all 0.3s ease-out;
+  transition: all 0.2s ease-out;
   float:right;
 }
 
@@ -91,7 +183,7 @@
   text-align: center;
   text-decoration: none;
   letter-spacing: 1px;
-  transition: all 0.3s ease-out;
+  transition: all 0.2s ease-out;
   float:left;
 }
 
@@ -111,32 +203,81 @@
 }
 
 .body {
-	position: relative;
+	position: absolute;
+	width: 100vw;
 	top: 100vh;
-	padding-top: 5%;
-	padding-bottom: 7%;
 }
 
-.thechallenge {
-	background-color: #f5f5dc;
-	padding-top: 6%;
-	padding-bottom: 5%;
+.subcontent {
+	width: 100%;
+	text-align: center;
 }
 
-.oursolution {
-	padding-top: 6%;
-	padding-bottom: 5%;
+.tan {
+	background-color: #FCFAF7;
 }
 
-.helppls {
-	background-color: #f5f5dc;
-	padding-top: 6%;
-	padding-bottom: 6%;
+.container {
+	padding: 0;
+	padding-top: 50px;
+	width: 1000px;
+	display: inline-block;
+	/* border: solid red 1px; */
 }
 
-.affiliations {
-	padding-top:4%;
-	padding-bottom: 6%;
+
+.subtitle {
+	margin-bottom: 20px;
+}
+
+.profile-row {
+	margin-bottom: 60px;
+}
+
+.who-are-we {
+	height: 400px;
+}
+
+.help {
+	height: 800px;
+}
+
+.history {
+	height: 550px;
+}
+
+.meet-the-team {
+	height: 1100px;
+}
+
+.semi-transparent-button1 {
+	background-color: #F1E2BC;
+	height: 50px;
+	padding-top: 10px;
+}
+
+.semi-transparent-button2 {
+	background-color: #F1E2BC;
+	height: 50px;
+	padding-top: 10px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.semi-transparent-button1:hover {
+	opacity: .5;
+	color: black;
+}
+
+.semi-transparent-button2:hover {
+	opacity: .5;
+	color: black;
+}
+
+.help-buttons-container {
+	margin-top: 50px;
 }
 
 /*Students.html CSS Specific*/
@@ -146,7 +287,7 @@
 }
 
 .importantDates {
-	background-color: #f5f5dc;
+	background-color: #FCFAF7;
 	padding-top: 4%;
 	padding-bottom: 6%;
 }
@@ -158,7 +299,7 @@
 }
 
 .container .importantDates3 {
-	background-color: #f5f5dc;
+	background-color: #FCFAF7;
 	padding-top: 2%;
 	padding-bottom: 2%;
 
@@ -191,6 +332,7 @@
     background-color: #46525f;
     min-height: 350px;
     padding-top:70px !important;
+		bottom: 0;
 }
 .footer h4{
     font-size: 15px;
@@ -207,9 +349,6 @@
     font-size: 15px;
     padding-bottom: 5px;
 }
-.footer {
-    padding-bottom: 20px;
-}
 .footer a {
     color:#8E8D8A;
 }
@@ -225,19 +364,19 @@
   #navbar {
   padding-top: 10px;
   }
- 
+
   #navbar > ul {
   display: table-row;
   padding-top: 48px;
   }
- 
+
   #navbar > ul > li {
   display: table-cell;
   float: none;
   vertical-align: middle;
- 
+
   text-align: center;
- 
+
   width: 80px;  /* crazy designer's fixed-width, multi-line entries */
   }
 }
