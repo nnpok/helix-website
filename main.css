@@ -557,10 +557,14 @@ a:hover {
 and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation : portrait) {
-	/* html, body {
+	html, body {
 		width: 100%;
 		overflow-x: hidden;
-	} */
+	}
+
+	.history {
+		height: 600px;
+	}
 
 
 
