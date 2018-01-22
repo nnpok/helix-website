@@ -570,6 +570,33 @@ and (orientation : portrait) {
 		height: 750px;
 	}
 
+	.program-overview {
+		height: 450px;
+	}
+
+	.internship {
+		height: 350px;
+	}
+
+	.details {
+		height: 600px;
+	}
+
+	.parent-orientation {
+		height: 350px;
+	}
+
+	.students {
+		height: 500px;
+	}
+
+	.application-process {
+		height: 650px;
+	}
+
+	.staff-qualities {
+		height: 730px;
+	}
 
 
 }
