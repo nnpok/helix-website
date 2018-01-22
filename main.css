@@ -533,33 +533,7 @@ a:hover {
 
 
 @media (max-width: 768px) {
-	.wtf {
-		height: 500px;
-	}
 
-	.wtf2 {
-		height: 500px;
-	}
-
-	.page-name-sizer {
-		position: absolute;
-		left: 50%;
-		transform: translateX(-50%);
-	}
-
-	.page-name {
-		font-size: 350%;
-	}
-
-	.page-subname {
-		font-size: 70%;
-	}
-
-	.body {
-		border: solid red 1px;
-		width: 100vw;
-		overflow-x: hidden;
-	}
   /* #navbar {
   padding-top: 10px;
   }
@@ -583,31 +557,11 @@ a:hover {
 and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation : portrait) {
-	.wtf {
-		height: 500px;
-	}
-
-	.wtf2 {
-		height: 500px;
-	}
-
-	.page-name-sizer {
-		position: absolute;
-		left: 50%;
-		transform: translateX(-50%);
-	}
-
-	.page-name {
-		font-size: 350%;
-	}
-
-	.page-subname {
-		font-size: 70%;
-	}
-
-	.body {
-		border: solid red 1px;
-		width: 100vw;
+	html, body {
+		width: 100%;
 		overflow-x: hidden;
 	}
+
+
+
 }
