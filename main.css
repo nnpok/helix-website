@@ -1,6 +1,7 @@
 body {
 	font-family: 'Quicksand', sans-serif;
 	width: 100vw;
+	overflow-x: hidden;
 	text-align: center;
 }
 
@@ -375,6 +376,50 @@ body {
 
 .important-dates {
 	height: 400px;
+}
+
+.students {
+	height: 500px;
+}
+
+.staff-qualities {
+	text-align: center;
+	height: 680px;
+}
+
+.application-header {
+	margin-bottom: 30px;
+}
+
+.application-process-text {
+	margin-bottom: 40px;
+}
+
+.staff-header {
+	display: inline-block;
+	text-align: center;
+	border-bottom: 3px solid currentColor;
+	width: 240px;
+}
+
+.staff-qualities-pics {
+	height: 270px;
+}
+
+.application-process {
+	height: 600px;
+}
+
+.container .application-process {
+	position: relative;
+}
+
+.staff-apply-button {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 280px;
+	margin-top: 40px;
 }
 
 .semi-transparent-button1 {
