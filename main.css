@@ -570,13 +570,18 @@ a:hover {
   width: 80px;  /* crazy designer's fixed-width, multi-line entries */
 }
 
+html, body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
 @media only screen
-and (min-device-width : 375px)
+/* and (min-device-width : 375px) */
 and (max-device-width : 667px)
 and (orientation : portrait) {
-	html, body {
-		width: 100%;
-		overflow-x: hidden;
+
+	.who-are-we {
+		height: 450px;
 	}
 
 	.history {
