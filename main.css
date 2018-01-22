@@ -278,7 +278,27 @@ body {
 	opacity: 1;
 }
 
-.profile-empty:hover .info-empty {
+.seven:hover .info7 {
+	opacity: 1;
+}
+
+.eight:hover .info8 {
+	opacity: 1;
+}
+
+.nine:hover .info9 {
+	opacity: 1;
+}
+
+.ten:hover .info10 {
+	opacity: 1;
+}
+
+.eleven:hover .info11 {
+	opacity: 1;
+}
+
+.twelve:hover .info12 {
 	opacity: 1;
 }
 
@@ -304,7 +324,57 @@ body {
 }
 
 .meet-the-team {
-	height: 1100px;
+	height: 950px;
+}
+
+.partners {
+	height: 300px;
+}
+
+.affiliations {
+	height: 500px;
+
+}
+
+.affiliation-logos {
+	margin-top: 50px;
+}
+
+.program-overview {
+	height: 400px;
+}
+
+.curriculum-list {
+	height: 250px;
+}
+
+.curriculum {
+	height: 650px;
+}
+
+.internship {
+	height: 300px;
+}
+
+.details-headers {
+	margin-bottom: 15px;
+}
+
+.details-pics {
+	line-height:200px;
+	height: 230px;
+}
+
+.details {
+	height: 550px;
+}
+
+.parent-orientation {
+	height: 300px;
+}
+
+.important-dates {
+	height: 400px;
 }
 
 .semi-transparent-button1 {
