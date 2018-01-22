@@ -155,6 +155,23 @@ body {
 	color: black;
 }
 
+.history-logo-cont {
+	position: relative;
+}
+
+.history-logo {
+	position: absolute;
+	bottom: 30px;
+	left: 80px;
+}
+
+.history-circle-logo {
+	position: absolute;
+	top: 10px;
+	left: 60px;
+}
+
+
 .semi-transparent-button1 {
   display: block;
   box-sizing: border-box;
@@ -379,7 +396,7 @@ body {
 }
 
 .students {
-	height: 50px;
+	height: 500px;
 }
 
 .staff-qualities {
@@ -584,10 +601,6 @@ and (orientation : portrait) {
 
 	.parent-orientation {
 		height: 350px;
-	}
-
-	.students {
-		height: 500px;
 	}
 
 	.application-process {
