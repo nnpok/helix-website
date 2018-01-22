@@ -379,7 +379,7 @@ body {
 }
 
 .students {
-	height: 500px;
+	height: 50px;
 }
 
 .staff-qualities {
@@ -532,8 +532,41 @@ a:hover {
 }
 
 
-@media (min-width: 768px) {
-  #navbar {
+@media (max-width: 768px) {
+	.wtf {
+		height: 500px;
+	}
+
+	.wtf2 {
+		height: 500px;
+	}
+
+	.page-name-sizer {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.page-name {
+		font-size: 350%;
+	}
+
+	.page-subname {
+		font-size: 70%;
+	}
+
+	.body {
+		border: solid red 1px;
+		width: 100vw;
+		overflow-x: hidden;
+	}
+
+
+
+
+
+
+  /* #navbar {
   padding-top: 10px;
   }
 
@@ -550,5 +583,4 @@ a:hover {
   text-align: center;
 
   width: 80px;  /* crazy designer's fixed-width, multi-line entries */
-  }
 }
