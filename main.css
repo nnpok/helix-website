@@ -563,7 +563,11 @@ and (orientation : portrait) {
 	}
 
 	.history {
-		height: 600px;
+		height: 650px;
+	}
+
+	.meet-the-team {
+		height: 750px;
 	}
 
 
