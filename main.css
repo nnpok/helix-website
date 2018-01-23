@@ -7,15 +7,19 @@ body {
 
 .wtf {
 	background-image: url("med_pattern_full.png");
-	height: 100%;
+/*	height: 100%;*/
 	-webkit-transform: skewY(-7deg);
 	-moz-transform: skewY(-7deg);
 	-ms-transform: skewY(-7deg);
 	-o-transform: skewY(-7deg);
-	position: absolute;
+/*	position: absolute;*/
 	transform: skewY(-7deg);
 	transform-origin: 0;
 	width: 100%;
+    background-size: cover;
+    height: 0;
+    padding-bottom: 51.5%;
+    min-height: 650px;
 }
 
 .wtf2 {
@@ -31,13 +35,14 @@ body {
 }
 
 .ftw {
+    padding-bottom: 51%;
 	-webkit-transform: skewY(7deg);
 	-moz-transform: skewY(7deg);
 	-ms-transform: skewY(7deg);
 	-o-transform: skewY(7deg);
 	transform: skewY(7deg);
 	transform-origin: 0;
-	position: relative;
+
 }
 
 .navbar{
@@ -97,7 +102,13 @@ body {
 	padding-top: 50px;
 	width: 1200px;
 	display: inline-block;
+
 }
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+
 
 .page-name {
 	font-size: 75px;
@@ -240,9 +251,12 @@ body {
 }
 
 .body {
-	position: absolute;
+/*	position: absolute;*/
+/*
 	width: 100vw;
 	top: 100vh;
+*/
+    width: 100%;
 }
 
 .subcontent {
