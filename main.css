@@ -551,6 +551,10 @@ a:hover {
 	z-index:1;
 }
 
+.footer-left-div {
+	color: #aaa;
+}
+
 /*Footer CSS*/
 .footer {
     background-color: #46525f;
