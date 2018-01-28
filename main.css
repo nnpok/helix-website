@@ -459,7 +459,7 @@ body {
 }
 
 .application-process {
-	height: 600px;
+	height: 650px;
 }
 
 .container .application-process {
@@ -472,6 +472,11 @@ body {
 	transform: translateX(-50%);
 	width: 280px;
 	margin-top: 40px;
+}
+
+.help-tag {
+	bottom: 0;
+	color: gray;
 }
 
 .semi-transparent-button1 {
