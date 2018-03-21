@@ -160,6 +160,27 @@ body {
 	opacity: .6;
 }
 
+.apply-button {
+	color: black;
+	background-color: #F1E2BC;
+	display: inline-block;
+	padding: 8px;
+	width: 200px;
+	border-radius: 8px;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all 0.2s ease-out;
+	font-size: 25px;
+	/* padding-left: 10px;
+	padding-right: 10px; */
+}
+
+.apply-button:hover {
+	color: black;
+	opacity: .6;
+}
+
 .learnbut {
 	font-size: 20px;
 	background-color: white;
