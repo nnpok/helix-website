@@ -415,7 +415,7 @@ body {
 }
 
 .program-overview {
-	height: 400px;
+	height: 550px;
 }
 
 .curriculum-list {
@@ -423,7 +423,7 @@ body {
 }
 
 .curriculum {
-	height: 650px;
+	height: 340px;
 }
 
 .internship {
@@ -444,7 +444,7 @@ body {
 }
 
 .parent-orientation {
-	height: 300px;
+	height: 325px;
 }
 
 .important-dates {
@@ -452,7 +452,7 @@ body {
 }
 
 .students {
-	height: 500px;
+	height: 750px;
 }
 
 .staff-qualities {
@@ -491,7 +491,7 @@ body {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	width: 280px;
+	width: 300px;
 	margin-top: 40px;
 }
 
